@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "472301470714",
+    "project_id": "hoteligo-fab51",
+    "storage_bucket": "hoteligo-fab51.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472301470714:android:bd3276c5a05e206f555a43",
+        "android_client_info": {
+          "package_name": "com.example.hoteligo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472301470714-52kdgrg97bpk3fnc8ttnshab8rmhn3tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyis7YtCxmlW_9OCZ6eH4j1zbmgMeW6qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472301470714-52kdgrg97bpk3fnc8ttnshab8rmhn3tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472301470714:android:af800ca91d47f55d555a43",
+        "android_client_info": {
+          "package_name": "com.example.hoteligoadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472301470714-52kdgrg97bpk3fnc8ttnshab8rmhn3tp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyis7YtCxmlW_9OCZ6eH4j1zbmgMeW6qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472301470714-52kdgrg97bpk3fnc8ttnshab8rmhn3tp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

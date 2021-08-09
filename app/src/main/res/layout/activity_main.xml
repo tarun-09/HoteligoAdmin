@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Hotel Details Below"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hotel Name"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter City"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hotel Address"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hotel Details"
+        android:inputType="textLongMessage"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Hotel Price for Two"
+        android:layout_marginTop="5dp"/>
+
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="@color/black"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="15sp"/>
+
+</LinearLayout>
